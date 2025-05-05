@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lio_tm00 - Redes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #000000 0%, #0f0f3e 100%);
+      color: #00ccff;
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 40px;
+      text-shadow: 0 0 15px #00ccff;
+      animation: flicker 2s infinite alternate;
+    }
+
+    @keyframes flicker {
+      from { opacity: 1; }
+      to { opacity: 0.85; }
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      width: 280px;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #00ccff;
+      background-color: rgba(0, 0, 0, 0.8);
+      border: 2px solid #00ccff;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ccff44;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px #00ccff;
+      background-color: #001f33;
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Conéctate con Lio_tm00</h1>
+
+  <div class="link-container">
+    <a href="https://discord.gg/UH42m6Uk4C" target="_blank">🎮 Discord</a>
+    <a href="https://kick.com/lio-tm00" target="_blank">📺 Kick</a>
+    <a href="https://www.youtube.com/@lio-tm00/streams" target="_blank">▶️ YouTube Streams</a>
+    <a href="https://www.twitch.tv/lio_tm00" target="_blank">🕹️ Twitch</a>
+    <a href="https://www.instagram.com/lio_tm00/" target="_blank">📸 Instagram</a>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Lio_tm00 | Página de enlaces</p>
+  </div>
+</body>
+</html>
